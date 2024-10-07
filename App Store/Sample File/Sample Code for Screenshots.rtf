@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2577
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 10\
+@FINDS THE NTH (LOC0)\
+@FIBONNACI NUMBER,\
+@STORES IN LOC1\
+@R0 - NTH\
+@R1 - COUNTER\
+@R2 - FIRST\
+@R3 - SECOND\
+@R4 - CARRY\
+LDR R0, 0\
+MOV R1, #2\
+MOV R2, #0\
+MOV R3, #1\
+CMP R0, #0\
+BEQ ZEROTH\
+CMP R0, #1\
+BEQ FIRST\
+FINDNEXT:\
+	MOV R4, R3\
+	ADD R3, R2, R3\
+	MOV R2, R4\
+	CMP R0, R1\
+	BEQ FINISH\
+	ADD R1, R1, #1\
+	B FINDNEXT\
+ZEROTH:\
+	STR R2, 1\
+	HALT\
+FIRST:\
+	STR R3, 1\
+	HALT\
+FINISH:\
+	STR R3, 1\
+	HALT}

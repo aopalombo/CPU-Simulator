@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490C897F25786E66008E7CEA /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C897E25786E66008E7CEA /* AboutView.swift */; };
+		49131E46242CB8430035B8CB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49131E45242CB8430035B8CB /* OnboardingView.swift */; };
+		492909532402F2000057EB2E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492909522402F2000057EB2E /* RegisterView.swift */; };
+		492D9015246E94830036A2C8 /* CPU_Simulator_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49308219239A788100716593 /* CPU_Simulator_Framework.framework */; };
+		49308210239A74A300716593 /* CPUSimulatorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930820F239A74A300716593 /* CPUSimulatorDocument.swift */; };
+		49308222239A788100716593 /* CPU_Simulator_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49308219239A788100716593 /* CPU_Simulator_Framework.framework */; };
+		49308229239A788100716593 /* CPU_Simulator_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49308228239A788100716593 /* CPU_Simulator_FrameworkTests.swift */; };
+		4930822B239A788100716593 /* CPU_Simulator_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4930821B239A788100716593 /* CPU_Simulator_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49512AAC23C8740B007084D1 /* UIApplicationDirectories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49512AAB23C8740B007084D1 /* UIApplicationDirectories.swift */; };
+		4954908123ACE3DD00244CA8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954908023ACE3DD00244CA8 /* Cell.swift */; };
+		49605E752327B46B000A75E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49605E742327B46B000A75E0 /* AppDelegate.swift */; };
+		49605E772327B46B000A75E0 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49605E762327B46B000A75E0 /* DocumentBrowserViewController.swift */; };
+		49605E792327B46B000A75E0 /* SimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49605E782327B46B000A75E0 /* SimulationView.swift */; };
+		49605E7E2327B46B000A75E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49605E7C2327B46B000A75E0 /* Main.storyboard */; };
+		49605E802327B46D000A75E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49605E7F2327B46D000A75E0 /* Assets.xcassets */; };
+		49605E832327B46D000A75E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49605E812327B46D000A75E0 /* LaunchScreen.storyboard */; };
+		49605E8E2327B46D000A75E0 /* CPU_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49605E8D2327B46D000A75E0 /* CPU_SimulatorTests.swift */; };
+		49605E992327B46D000A75E0 /* CPU_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49605E982327B46D000A75E0 /* CPU_SimulatorUITests.swift */; };
+		497314A6240FB7FB008E52DF /* MachineCodeCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497314A5240FB7FB008E52DF /* MachineCodeCompositionView.swift */; };
+		49939A9023BE1E5200A70E5D /* ContentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49939A8F23BE1E5200A70E5D /* ContentDescription.swift */; };
+		49A2227624031F4C00DB4494 /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A2227524031F4C00DB4494 /* BusView.swift */; };
+		49C40BC724034766004CF7D3 /* CellsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BC624034766004CF7D3 /* CellsListView.swift */; };
+		49C40BC92403C5D5004CF7D3 /* ExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BC82403C5D5004CF7D3 /* ExecutionView.swift */; };
+		49C40BCC2403D294004CF7D3 /* CPUSimulatorString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BCB2403D294004CF7D3 /* CPUSimulatorString.swift */; };
+		49C40BCE2403D29D004CF7D3 /* AssemblyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BCD2403D29D004CF7D3 /* AssemblyCode.swift */; };
+		49C40BD22403DC1F004CF7D3 /* RunThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BD12403DC1F004CF7D3 /* RunThrough.swift */; };
+		49C40BD42403E335004CF7D3 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BD32403E335004CF7D3 /* CodeView.swift */; };
+		49C40BD62403E365004CF7D3 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BD52403E365004CF7D3 /* OptionsView.swift */; };
+		49C40BD82403EF59004CF7D3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BD72403EF59004CF7D3 /* TextView.swift */; };
+		49C40BDA2403FB9E004CF7D3 /* AssemblyCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BD92403FB9E004CF7D3 /* AssemblyCodeView.swift */; };
+		49C40BDC2403FBAB004CF7D3 /* MachineCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BDB2403FBAB004CF7D3 /* MachineCodeView.swift */; };
+		49C40BE024042F43004CF7D3 /* AssemblyErrorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BDF24042F42004CF7D3 /* AssemblyErrorsView.swift */; };
+		49C40BE42404A0DE004CF7D3 /* InstructionSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BE32404A0DE004CF7D3 /* InstructionSetView.swift */; };
+		49C40BE624066AA1004CF7D3 /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BE524066AA1004CF7D3 /* MemoryView.swift */; };
+		49C40BE82406730B004CF7D3 /* GPCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BE72406730B004CF7D3 /* GPCellView.swift */; };
+		49C40BEA24067AE7004CF7D3 /* GPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C40BE924067AE7004CF7D3 /* GPView.swift */; };
+		49CE267523BE1D9100ACB232 /* SimulationDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE267423BE1D9100ACB232 /* SimulationDescription.swift */; };
+		49DC997D240099D600A18C77 /* CPU_Simulator_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49308219239A788100716593 /* CPU_Simulator_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		49F172C323FFF8E90000FC4F /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F172C223FFF8E90000FC4F /* Preferences.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49308223239A788100716593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49605E692327B46B000A75E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49308218239A788100716593;
+			remoteInfo = "CPU Simulator Framework";
+		};
+		49308225239A788100716593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49605E692327B46B000A75E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49605E702327B46B000A75E0;
+			remoteInfo = "CPU Simulator";
+		};
+		4930822C239A788100716593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49605E692327B46B000A75E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49308218239A788100716593;
+			remoteInfo = "CPU Simulator Framework";
+		};
+		49605E8A2327B46D000A75E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49605E692327B46B000A75E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49605E702327B46B000A75E0;
+			remoteInfo = "CPU Simulator";
+		};
+		49605E952327B46D000A75E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49605E692327B46B000A75E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49605E702327B46B000A75E0;
+			remoteInfo = "CPU Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49DC997E240099D600A18C77 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				49DC997D240099D600A18C77 /* CPU_Simulator_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		490C897E25786E66008E7CEA /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		49131E45242CB8430035B8CB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		492909522402F2000057EB2E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4930820F239A74A300716593 /* CPUSimulatorDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUSimulatorDocument.swift; sourceTree = "<group>"; };
+		49308219239A788100716593 /* CPU_Simulator_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPU_Simulator_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930821B239A788100716593 /* CPU_Simulator_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPU_Simulator_Framework.h; sourceTree = "<group>"; };
+		4930821C239A788100716593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49308221239A788100716593 /* CPU Simulator FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPU Simulator FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49308228239A788100716593 /* CPU_Simulator_FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU_Simulator_FrameworkTests.swift; sourceTree = "<group>"; };
+		4930822A239A788100716593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49405833246C89D2002F8E69 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		494CB349246D988B00285269 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49512AAB23C8740B007084D1 /* UIApplicationDirectories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationDirectories.swift; sourceTree = "<group>"; };
+		4954908023ACE3DD00244CA8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		49605E712327B46B000A75E0 /* CPU Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPU Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49605E742327B46B000A75E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49605E762327B46B000A75E0 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		49605E782327B46B000A75E0 /* SimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationView.swift; sourceTree = "<group>"; };
+		49605E7D2327B46B000A75E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49605E7F2327B46D000A75E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49605E822327B46D000A75E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49605E892327B46D000A75E0 /* CPU SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPU SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49605E8D2327B46D000A75E0 /* CPU_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU_SimulatorTests.swift; sourceTree = "<group>"; };
+		49605E8F2327B46D000A75E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49605E942327B46D000A75E0 /* CPU SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPU SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49605E982327B46D000A75E0 /* CPU_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU_SimulatorUITests.swift; sourceTree = "<group>"; };
+		49605E9A2327B46D000A75E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497314A5240FB7FB008E52DF /* MachineCodeCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineCodeCompositionView.swift; sourceTree = "<group>"; };
+		49939A8F23BE1E5200A70E5D /* ContentDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDescription.swift; sourceTree = "<group>"; };
+		49A2227524031F4C00DB4494 /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
+		49C40BC624034766004CF7D3 /* CellsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellsListView.swift; sourceTree = "<group>"; };
+		49C40BC82403C5D5004CF7D3 /* ExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionView.swift; sourceTree = "<group>"; };
+		49C40BCB2403D294004CF7D3 /* CPUSimulatorString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUSimulatorString.swift; sourceTree = "<group>"; };
+		49C40BCD2403D29D004CF7D3 /* AssemblyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCode.swift; sourceTree = "<group>"; };
+		49C40BD12403DC1F004CF7D3 /* RunThrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunThrough.swift; sourceTree = "<group>"; };
+		49C40BD32403E335004CF7D3 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		49C40BD52403E365004CF7D3 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		49C40BD72403EF59004CF7D3 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		49C40BD92403FB9E004CF7D3 /* AssemblyCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCodeView.swift; sourceTree = "<group>"; };
+		49C40BDB2403FBAB004CF7D3 /* MachineCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineCodeView.swift; sourceTree = "<group>"; };
+		49C40BDF24042F42004CF7D3 /* AssemblyErrorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyErrorsView.swift; sourceTree = "<group>"; };
+		49C40BE32404A0DE004CF7D3 /* InstructionSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionSetView.swift; sourceTree = "<group>"; };
+		49C40BE524066AA1004CF7D3 /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
+		49C40BE72406730B004CF7D3 /* GPCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPCellView.swift; sourceTree = "<group>"; };
+		49C40BE924067AE7004CF7D3 /* GPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPView.swift; sourceTree = "<group>"; };
+		49CE267423BE1D9100ACB232 /* SimulationDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationDescription.swift; sourceTree = "<group>"; };
+		49F172C223FFF8E90000FC4F /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49308216239A788100716593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930821E239A788100716593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49308222239A788100716593 /* CPU_Simulator_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E6E2327B46B000A75E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492D9015246E94830036A2C8 /* CPU_Simulator_Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E862327B46D000A75E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E912327B46D000A75E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4930820E239A745D00716593 /* UIDocument Mechanics */ = {
+			isa = PBXGroup;
+			children = (
+				49605E762327B46B000A75E0 /* DocumentBrowserViewController.swift */,
+				4930820F239A74A300716593 /* CPUSimulatorDocument.swift */,
+			);
+			path = "UIDocument Mechanics";
+			sourceTree = "<group>";
+		};
+		49308211239A772400716593 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49CE267423BE1D9100ACB232 /* SimulationDescription.swift */,
+				49939A8F23BE1E5200A70E5D /* ContentDescription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49308213239A77BC00716593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49605E812327B46D000A75E0 /* LaunchScreen.storyboard */,
+				49605E7C2327B46B000A75E0 /* Main.storyboard */,
+				49605E782327B46B000A75E0 /* SimulationView.swift */,
+				49C40BC624034766004CF7D3 /* CellsListView.swift */,
+				49C40BC82403C5D5004CF7D3 /* ExecutionView.swift */,
+				49C40BD32403E335004CF7D3 /* CodeView.swift */,
+				49C40BD92403FB9E004CF7D3 /* AssemblyCodeView.swift */,
+				49C40BDB2403FBAB004CF7D3 /* MachineCodeView.swift */,
+				49C40BD52403E365004CF7D3 /* OptionsView.swift */,
+				49131E45242CB8430035B8CB /* OnboardingView.swift */,
+				49A5DF2323A911E200FA8DB4 /* Supporting Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4930821A239A788100716593 /* CPU Simulator Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4930821C239A788100716593 /* Info.plist */,
+				4930821B239A788100716593 /* CPU_Simulator_Framework.h */,
+				49C40BCA2403D27F004CF7D3 /* Main Mechanics */,
+				49308211239A772400716593 /* Model */,
+			);
+			path = "CPU Simulator Framework";
+			sourceTree = "<group>";
+		};
+		49308227239A788100716593 /* CPU Simulator FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				49308228239A788100716593 /* CPU_Simulator_FrameworkTests.swift */,
+				4930822A239A788100716593 /* Info.plist */,
+			);
+			path = "CPU Simulator FrameworkTests";
+			sourceTree = "<group>";
+		};
+		49512AAA23C873D7007084D1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49512AAB23C8740B007084D1 /* UIApplicationDirectories.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		49605E682327B46B000A75E0 = {
+			isa = PBXGroup;
+			children = (
+				49605E732327B46B000A75E0 /* CPU Simulator */,
+				4930821A239A788100716593 /* CPU Simulator Framework */,
+				49605E8C2327B46D000A75E0 /* CPU SimulatorTests */,
+				49605E972327B46D000A75E0 /* CPU SimulatorUITests */,
+				49308227239A788100716593 /* CPU Simulator FrameworkTests */,
+				49605E722327B46B000A75E0 /* Products */,
+				49DC997F240099F600A18C77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49605E722327B46B000A75E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49605E712327B46B000A75E0 /* CPU Simulator.app */,
+				49605E892327B46D000A75E0 /* CPU SimulatorTests.xctest */,
+				49605E942327B46D000A75E0 /* CPU SimulatorUITests.xctest */,
+				49308219239A788100716593 /* CPU_Simulator_Framework.framework */,
+				49308221239A788100716593 /* CPU Simulator FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49605E732327B46B000A75E0 /* CPU Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				49605E7F2327B46D000A75E0 /* Assets.xcassets */,
+				494CB349246D988B00285269 /* Info.plist */,
+				49605E742327B46B000A75E0 /* AppDelegate.swift */,
+				49308213239A77BC00716593 /* Views */,
+				4930820E239A745D00716593 /* UIDocument Mechanics */,
+				49512AAA23C873D7007084D1 /* Helpers */,
+			);
+			path = "CPU Simulator";
+			sourceTree = "<group>";
+		};
+		49605E8C2327B46D000A75E0 /* CPU SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49605E8D2327B46D000A75E0 /* CPU_SimulatorTests.swift */,
+				49605E8F2327B46D000A75E0 /* Info.plist */,
+			);
+			path = "CPU SimulatorTests";
+			sourceTree = "<group>";
+		};
+		49605E972327B46D000A75E0 /* CPU SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49605E982327B46D000A75E0 /* CPU_SimulatorUITests.swift */,
+				49605E9A2327B46D000A75E0 /* Info.plist */,
+			);
+			path = "CPU SimulatorUITests";
+			sourceTree = "<group>";
+		};
+		49A5DF2323A911E200FA8DB4 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				49C40BDF24042F42004CF7D3 /* AssemblyErrorsView.swift */,
+				49C40BD72403EF59004CF7D3 /* TextView.swift */,
+				49A2227524031F4C00DB4494 /* BusView.swift */,
+				492909522402F2000057EB2E /* RegisterView.swift */,
+				49C40BE72406730B004CF7D3 /* GPCellView.swift */,
+				49C40BE924067AE7004CF7D3 /* GPView.swift */,
+				49C40BE524066AA1004CF7D3 /* MemoryView.swift */,
+				49C40BE32404A0DE004CF7D3 /* InstructionSetView.swift */,
+				497314A5240FB7FB008E52DF /* MachineCodeCompositionView.swift */,
+				490C897E25786E66008E7CEA /* AboutView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		49C40BCA2403D27F004CF7D3 /* Main Mechanics */ = {
+			isa = PBXGroup;
+			children = (
+				49C40BD12403DC1F004CF7D3 /* RunThrough.swift */,
+				4954908023ACE3DD00244CA8 /* Cell.swift */,
+				49F172C223FFF8E90000FC4F /* Preferences.swift */,
+				49C40BCB2403D294004CF7D3 /* CPUSimulatorString.swift */,
+				49C40BCD2403D29D004CF7D3 /* AssemblyCode.swift */,
+			);
+			path = "Main Mechanics";
+			sourceTree = "<group>";
+		};
+		49DC997F240099F600A18C77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49405833246C89D2002F8E69 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49308214239A788100716593 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4930822B239A788100716593 /* CPU_Simulator_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49308218239A788100716593 /* CPU Simulator Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49308230239A788100716593 /* Build configuration list for PBXNativeTarget "CPU Simulator Framework" */;
+			buildPhases = (
+				49308214239A788100716593 /* Headers */,
+				49308215239A788100716593 /* Sources */,
+				49308216239A788100716593 /* Frameworks */,
+				49308217239A788100716593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPU Simulator Framework";
+			productName = "CPU Simulator Framework";
+			productReference = 49308219239A788100716593 /* CPU_Simulator_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49308220239A788100716593 /* CPU Simulator FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49308234239A788100716593 /* Build configuration list for PBXNativeTarget "CPU Simulator FrameworkTests" */;
+			buildPhases = (
+				4930821D239A788100716593 /* Sources */,
+				4930821E239A788100716593 /* Frameworks */,
+				4930821F239A788100716593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49308224239A788100716593 /* PBXTargetDependency */,
+				49308226239A788100716593 /* PBXTargetDependency */,
+			);
+			name = "CPU Simulator FrameworkTests";
+			productName = "CPU Simulator FrameworkTests";
+			productReference = 49308221239A788100716593 /* CPU Simulator FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49605E702327B46B000A75E0 /* CPU Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49605EA32327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU Simulator" */;
+			buildPhases = (
+				49605E6D2327B46B000A75E0 /* Sources */,
+				49605E6E2327B46B000A75E0 /* Frameworks */,
+				49605E6F2327B46B000A75E0 /* Resources */,
+				49DC997E240099D600A18C77 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4930822D239A788100716593 /* PBXTargetDependency */,
+			);
+			name = "CPU Simulator";
+			productName = "CPU Simulator";
+			productReference = 49605E712327B46B000A75E0 /* CPU Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49605E882327B46D000A75E0 /* CPU SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49605EA42327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU SimulatorTests" */;
+			buildPhases = (
+				49605E852327B46D000A75E0 /* Sources */,
+				49605E862327B46D000A75E0 /* Frameworks */,
+				49605E872327B46D000A75E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49605E8B2327B46D000A75E0 /* PBXTargetDependency */,
+			);
+			name = "CPU SimulatorTests";
+			productName = "CPU SimulatorTests";
+			productReference = 49605E892327B46D000A75E0 /* CPU SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49605E932327B46D000A75E0 /* CPU SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49605EA52327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU SimulatorUITests" */;
+			buildPhases = (
+				49605E902327B46D000A75E0 /* Sources */,
+				49605E912327B46D000A75E0 /* Frameworks */,
+				49605E922327B46D000A75E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49605E962327B46D000A75E0 /* PBXTargetDependency */,
+			);
+			name = "CPU SimulatorUITests";
+			productName = "CPU SimulatorUITests";
+			productReference = 49605E942327B46D000A75E0 /* CPU SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49605E692327B46B000A75E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Andrew Palombo";
+				TargetAttributes = {
+					49308218239A788100716593 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1130;
+					};
+					49308220239A788100716593 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 49605E702327B46B000A75E0;
+					};
+					49605E702327B46B000A75E0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					49605E882327B46D000A75E0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 49605E702327B46B000A75E0;
+					};
+					49605E932327B46D000A75E0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 49605E702327B46B000A75E0;
+					};
+				};
+			};
+			buildConfigurationList = 49605E6C2327B46B000A75E0 /* Build configuration list for PBXProject "CPU Simulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49605E682327B46B000A75E0;
+			productRefGroup = 49605E722327B46B000A75E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49605E702327B46B000A75E0 /* CPU Simulator */,
+				49605E882327B46D000A75E0 /* CPU SimulatorTests */,
+				49605E932327B46D000A75E0 /* CPU SimulatorUITests */,
+				49308218239A788100716593 /* CPU Simulator Framework */,
+				49308220239A788100716593 /* CPU Simulator FrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49308217239A788100716593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930821F239A788100716593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E6F2327B46B000A75E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49605E832327B46D000A75E0 /* LaunchScreen.storyboard in Resources */,
+				49605E802327B46D000A75E0 /* Assets.xcassets in Resources */,
+				49605E7E2327B46B000A75E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E872327B46D000A75E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E922327B46D000A75E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49308215239A788100716593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954908123ACE3DD00244CA8 /* Cell.swift in Sources */,
+				49939A9023BE1E5200A70E5D /* ContentDescription.swift in Sources */,
+				49F172C323FFF8E90000FC4F /* Preferences.swift in Sources */,
+				49C40BD22403DC1F004CF7D3 /* RunThrough.swift in Sources */,
+				49C40BCC2403D294004CF7D3 /* CPUSimulatorString.swift in Sources */,
+				49C40BCE2403D29D004CF7D3 /* AssemblyCode.swift in Sources */,
+				49CE267523BE1D9100ACB232 /* SimulationDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4930821D239A788100716593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49308229239A788100716593 /* CPU_Simulator_FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E6D2327B46B000A75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A2227624031F4C00DB4494 /* BusView.swift in Sources */,
+				49C40BD62403E365004CF7D3 /* OptionsView.swift in Sources */,
+				490C897F25786E66008E7CEA /* AboutView.swift in Sources */,
+				49605E772327B46B000A75E0 /* DocumentBrowserViewController.swift in Sources */,
+				49605E792327B46B000A75E0 /* SimulationView.swift in Sources */,
+				492909532402F2000057EB2E /* RegisterView.swift in Sources */,
+				49C40BE624066AA1004CF7D3 /* MemoryView.swift in Sources */,
+				497314A6240FB7FB008E52DF /* MachineCodeCompositionView.swift in Sources */,
+				49C40BDC2403FBAB004CF7D3 /* MachineCodeView.swift in Sources */,
+				49C40BD82403EF59004CF7D3 /* TextView.swift in Sources */,
+				49C40BC724034766004CF7D3 /* CellsListView.swift in Sources */,
+				49C40BE42404A0DE004CF7D3 /* InstructionSetView.swift in Sources */,
+				49C40BE024042F43004CF7D3 /* AssemblyErrorsView.swift in Sources */,
+				49605E752327B46B000A75E0 /* AppDelegate.swift in Sources */,
+				49C40BD42403E335004CF7D3 /* CodeView.swift in Sources */,
+				49C40BEA24067AE7004CF7D3 /* GPView.swift in Sources */,
+				49C40BDA2403FB9E004CF7D3 /* AssemblyCodeView.swift in Sources */,
+				49C40BC92403C5D5004CF7D3 /* ExecutionView.swift in Sources */,
+				49308210239A74A300716593 /* CPUSimulatorDocument.swift in Sources */,
+				49512AAC23C8740B007084D1 /* UIApplicationDirectories.swift in Sources */,
+				49C40BE82406730B004CF7D3 /* GPCellView.swift in Sources */,
+				49131E46242CB8430035B8CB /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E852327B46D000A75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49605E8E2327B46D000A75E0 /* CPU_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49605E902327B46D000A75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49605E992327B46D000A75E0 /* CPU_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49308224239A788100716593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49308218239A788100716593 /* CPU Simulator Framework */;
+			targetProxy = 49308223239A788100716593 /* PBXContainerItemProxy */;
+		};
+		49308226239A788100716593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49605E702327B46B000A75E0 /* CPU Simulator */;
+			targetProxy = 49308225239A788100716593 /* PBXContainerItemProxy */;
+		};
+		4930822D239A788100716593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49308218239A788100716593 /* CPU Simulator Framework */;
+			targetProxy = 4930822C239A788100716593 /* PBXContainerItemProxy */;
+		};
+		49605E8B2327B46D000A75E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49605E702327B46B000A75E0 /* CPU Simulator */;
+			targetProxy = 49605E8A2327B46D000A75E0 /* PBXContainerItemProxy */;
+		};
+		49605E962327B46D000A75E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49605E702327B46B000A75E0 /* CPU Simulator */;
+			targetProxy = 49605E952327B46D000A75E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49605E7C2327B46B000A75E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49605E7D2327B46B000A75E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49605E812327B46D000A75E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49605E822327B46D000A75E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49308231239A788100716593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CPU Simulator Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewpalombo.cpusimulatorframework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49308232239A788100716593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "CPU Simulator Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewpalombo.cpusimulatorframework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49308235239A788100716593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU Simulator FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-Simulator-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPU Simulator.app/CPU Simulator";
+			};
+			name = Debug;
+		};
+		49308236239A788100716593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU Simulator FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-Simulator-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPU Simulator.app/CPU Simulator";
+			};
+			name = Release;
+		};
+		49605E9B2327B46E000A75E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49605E9C2327B46E000A75E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49605E9D2327B46E000A75E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewpalombo.cpusimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49605E9E2327B46E000A75E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU Simulator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewpalombo.cpusimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49605E9F2327B46E000A75E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU SimulatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPU Simulator.app/CPU Simulator";
+			};
+			name = Debug;
+		};
+		49605EA02327B46E000A75E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU SimulatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPU Simulator.app/CPU Simulator";
+			};
+			name = Release;
+		};
+		49605EA12327B46E000A75E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU SimulatorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPU Simulator";
+			};
+			name = Debug;
+		};
+		49605EA22327B46E000A75E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q38CDUU843;
+				INFOPLIST_FILE = "CPU SimulatorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewpalombo.CPU-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPU Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49308230239A788100716593 /* Build configuration list for PBXNativeTarget "CPU Simulator Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49308231239A788100716593 /* Debug */,
+				49308232239A788100716593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49308234239A788100716593 /* Build configuration list for PBXNativeTarget "CPU Simulator FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49308235239A788100716593 /* Debug */,
+				49308236239A788100716593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49605E6C2327B46B000A75E0 /* Build configuration list for PBXProject "CPU Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49605E9B2327B46E000A75E0 /* Debug */,
+				49605E9C2327B46E000A75E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49605EA32327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49605E9D2327B46E000A75E0 /* Debug */,
+				49605E9E2327B46E000A75E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49605EA42327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49605E9F2327B46E000A75E0 /* Debug */,
+				49605EA02327B46E000A75E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49605EA52327B479000A75E0 /* Build configuration list for PBXNativeTarget "CPU SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49605EA12327B46E000A75E0 /* Debug */,
+				49605EA22327B46E000A75E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49605E692327B46B000A75E0 /* Project object */;
+}
